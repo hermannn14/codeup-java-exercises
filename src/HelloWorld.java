@@ -5,5 +5,10 @@ public class HelloWorld {
         System.out.print("\n");
         System.out.print("Hello World");
 //        System.out.print("\n");
+        "javac HelloWorld.java"
+
+
+        int myFavoriteNumber;
     }
+
 }

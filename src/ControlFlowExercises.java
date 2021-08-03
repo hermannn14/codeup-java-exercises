@@ -1,5 +1,5 @@
-public class ControlFlowExercises {
-    public static void main(String[] args) {
+//public class ControlFlowExercises {
+//    public static void main(String[] args) {
 //        int i = 5;
 //        while (i <= 15) {
 //            System.out.println( i);
@@ -37,9 +37,9 @@ public class ControlFlowExercises {
 //            System.out.println(i);
 //        }
 
-        for (long i = 2; i < 1000000 ; i= (long) Math.pow(i,2)) {
-            System.out.println(i);
-        }
-
-    }
-}
+//        for (long i = 2; i < 1000000 ; i= (long) Math.pow(i,2)) {
+//            System.out.println(i);
+//        }
+//
+//    }
+//}

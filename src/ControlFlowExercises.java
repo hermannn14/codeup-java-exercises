@@ -96,13 +96,26 @@
 //
 //            if (userGrade >= 88) {
 //                System.out.println("A");
-//            } else if (userGrade >= 80); {
+//            } else if (userGrade >= 80) {
 //                System.out.println("B");
-//            } else if (userGrade)
-//        }
-
-
-
+//            } else if (userGrade >= 67) {
+//                System.out.println("C");
+//            } else if (userGrade >= 60) {
+//                System.out.println("D");
+//            } else {
+//                System.out.println("F");
+//            }
+//        System.out.println("Do you want to enter a new grade? (y/n?");
+//
+//            String userResponse = scanner.next();
+//            if (!userResponse.equalsIgnoreCase("y")) {
+//                anotherGrade = false;
+//            }
+//        } while (anotherGrade);
+//
+//
+//
+//
 //
 //    }
 //}

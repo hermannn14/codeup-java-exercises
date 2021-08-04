@@ -12,39 +12,39 @@
 //        do {
 //            System.out.println("i");
 //        } while (i <= 100);
-
+//
 //        int i = 100;
 //        do {
 //            System.out.println(i);
 //            i = i - 5;
 //        }
 //        while (i >= -10);
-
-
+//
+//
 //        long i = 2;
 //        do {
 //            System.out.println(i);
 //            i = (long) Math.pow(i, 2);
 //        }
 //        while (i <= 1000000);
-
+//
 //        for(int i = 0; i <= 15 ; i ++) {
 //            System.out.println(i);
 //        }
 //        for (int i = 0; i<= 100 ; i+= 2) {
 //            System.out.println(i);
 //        }
-
+//
 //        for (int i = 100; i >= 0 ; i-= 5) {
 //            System.out.println(i);
 //        }
-
+//
 //        for (long i = 2; i < 1000000 ; i= (long) Math.pow(i,2)) {
 //            System.out.println(i);
 //        }
-
-
-        //2.
+//
+//
+//        2.
 //        for(int i = 1; i <= 100; i++) {
 //            if(i % 5 == 0 && i % 3 == 0) {
 //                System.out.println("FizzBuzz");
@@ -56,11 +56,11 @@
 //                System.out.println(i);
 //            }
 //        }
-
-
-        //3.
+//
+//
+//        3.
 //        Scanner scanner = new Scanner(System.in);
-
+//
 //        boolean userContinues = true;
 //
 //        do {
@@ -83,9 +83,9 @@
 //                userContinues = false;
 //            }
 //        }while(userContinues);
-
-
-        //4.
+//
+//
+//        4.
 //        boolean anotherGrade = true;
 //
 //        do {

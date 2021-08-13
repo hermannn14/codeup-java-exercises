@@ -9,18 +9,24 @@ public class Input {
 
     public Input() {  // Constructor.
         keyboardInput = new Scanner(System.in);
-        System.out.println("I like to move");
+//        System.out.println("I like to move");
     }
-
+//
+//
+//    public String getString() {
+//        System.out.println("I feel good");
+//        String userString = keyboardInput.nextLine();
+//        return userString;
+//    }
 
     public String getString() {
-        System.out.println("I feel good");
+//        System.out.println("Type Something: ");
         String userString = keyboardInput.nextLine();
         return userString;
     }
 
     public boolean yesNo() {
-        System.out.println("Select (y/n): ");
+//        System.out.println("Select (y/n): ");
         String userAnswer = keyboardInput.nextLine();
         return userAnswer.equals("y");
     }
@@ -68,8 +74,6 @@ public class Input {
 
 
     }
-
-
 
 
 }

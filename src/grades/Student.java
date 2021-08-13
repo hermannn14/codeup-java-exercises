@@ -17,11 +17,11 @@ public class Student {
 
     public static void main(String[] args) {
 
-        Student bob = new Student("bob");
+        Student bob = new Student("Bob");
         bob.addGrade(70);
         bob.addGrade(80);
         bob.addGrade(90);
-        System.out.println("This is what bob got as an average");
+        System.out.println("This is what bob got as an average " + bob.getGradeAverage());
 
 
     }
@@ -30,7 +30,7 @@ public class Student {
     }
 
 
-    public void getGradeAverage() {
+    public double getGradeAverage() {
         double sum;
         sum = 0;
         // step 1 iterate over grades and calculate sum

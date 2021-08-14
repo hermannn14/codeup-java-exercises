@@ -1,3 +1,4 @@
+//
 //package movies;
 //
 //public class MoviesApplication {
@@ -15,6 +16,9 @@
 //
 //            running = executeUserChoice();
 //        }
+//    }
+//        private static boolean executeUserChoice(int choice) {
+//            boolean continueRunningApp = true;
 //
 //        switch(choice) {
 //            case 0:
@@ -23,9 +27,30 @@
 //                break;
 //            case 1: // View all movies
 //                for(Movie movie : MoviesArray.findAll()) {
-//                    System.out.println("%s - %s", movie.getName(), movie.getCategory());
+//                    System.out.printf("%s -- %s\n", movie.getName(),    movie.getCategory());
 //                }
 //                break;
+//            case 2:
+//                System.out.println();
+//                viewMoviesByCategory("animated");
+//                System.out.println();
+//                break;
+//            case 3:
+//                System.out.println();
+//                viewMoviesByCategory("drama");
+//                System.out.println();
+//                break;
+//            case 4:
+//                System.out.println();
+//                viewMoviesByCategory("horror");
+//                System.out.println();
+//                break;
+//            case 5:
+//                System.out.println();
+//                viewMoviesByCategory("scifi");
+//                System.out.println();
+//                break;
+//
 //        }
 //        return continueRunningApp;
 //    }
@@ -51,3 +76,5 @@
 //
 //    }
 //}
+//
+// */
